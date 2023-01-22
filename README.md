@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Cybersecurity,Coding and Building Apps**
 
-- 👨‍💻 All of my projects are available at [linkedin.com/in/shravankumaruk](linkedin.com/in/shravankumaruk)
+- 👨‍💻 All of my projects are available at [My LinkedIn Profile](linkedin.com/in/shravankumaruk)
 
 - 💬 Ask me about **Ethical Hacking,Pentesting,Web Development.**
 
