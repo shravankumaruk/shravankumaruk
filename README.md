@@ -15,7 +15,7 @@
 
 - 📄 Know about my experiences [linkedin.com/in/shravankumaruk](linkedin.com/in/shravankumaruk)
 
-- ⚡ Fun fact **I am just a noob**
+- ⚡ Fun fact **I believe in data supremacy**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
