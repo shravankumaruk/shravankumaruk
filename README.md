@@ -1,10 +1,4 @@
-## 💬 Daily Hacker Quote
-
 > _quote will appear here_
-
-<!--START_QUOTE-->
-> _quote will appear here_
-<!--END_QUOTE-->
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00FF00&center=true&vCenter=true&width=450&lines=Shravan+Kumar+UK;Cybersecurity;Purple+Teamer;Tech+Builder" alt="Typing SVG" />
 </h1>
