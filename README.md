@@ -11,6 +11,7 @@
 ## 💬 Daily Hacker Quote
 
 > _quote will appear here_
+
 ###
 ###
 
