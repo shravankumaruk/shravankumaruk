@@ -1,52 +1,52 @@
-Talk is cheap. Show me the code. — Linus Torvalds
-There is no patch for human stupidity. — Kevin Mitnick
-Security is not a product, but a process. — Bruce Schneier
-The quieter you become, the more you are able to hear. — Kali Linux
-With great power comes great responsibility. — Uncle Ben
-Think like a hacker, act like a professional. — Unknown
-Obscurity is a poor substitute for security. — Phil Zimmermann
-Attacks always get better; they never get worse. — Marcus Ranum
-Hack the planet! — Hackers (1995)
-Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us. — Anonymous
-Amateurs hack systems, professionals hack people. — Bruce Schneier
-Stay out of the dark web — unless you know what you are doing. — Every Ethical Hacker Ever
-You cannot secure what you do not understand. — Unknown
-Information wants to be free. — Stewart Brand
-Only script kiddies blame the tools. — Hacker Proverb
-Cybersecurity is like brushing your teeth — you have to do it every day. — Unknown
-Every lock can be picked with a big enough hammer. — Hacker Humor
-Don't trust. Verify. — Zero Trust Philosophy
-One man's malware is another man's penetration test. — Offensive Security
-The best defense is a paranoid offense. — Infosec Rule
-The only secure system is one that is unplugged, locked in a safe, and buried 20 feet underground. — Gene Spafford
-APT = Advanced Persistent Trolls — Cybersecurity Meme
-Your firewall is only as good as your users' click decisions. — Security Trainer
-Sometimes the most secure password is forgetting your password. — User Frustration
-Firewalls do not stop people — people do. — Unknown
-There is no cloud, just someone else's computer. — SysAdmin Wisdom
-Hackers do not break in — they log in. — Red Team Mentality
-Recon is where the real hacking begins. — TheHarvester Tool Mindset
-Enumeration is the key. — Hack The Box
-The payload is just the beginning. — Metasploit Operators
-Your logs know what you did last summer. — SIEM Humor
-Encryption is sexy. — Privacy Advocate
-Never underestimate the power of social engineering. — Kevin Mitnick
-The bigger the system, the more beautiful the exploit. — Exploit Developer
-If you know the system better than its admin, you own it. — CTF Wizard
-Nothing is secure — only less insecure. — Cyber Philosopher
-Burp, scan, pwn, repeat. — Web App Hacker
-0day is just Tuesday for some people. — Red Team
-A good hacker never blames their proxychains. — Tor Surfer
-Every port tells a story. — Nmap Fan
-A good password is like a toothbrush: do not share it and change it often. — Security Awareness Training
-Do not feed the phish. — Security 101
-Hydra does not crack passwords — it cracks human laziness. — Brute Force Warrior
-That DNS request just snitched on you. — OSINT Specialist
-When in doubt, reverse engineer it. — Malware Analyst
-Sleep is for the patched. — SOC Analyst at 2AM
-You do not scan the box. You scan the behavior. — Real Hacker
-Hackers do not guess, they gather. — Recon God
-Code like a ninja, log like a forensic analyst. — Blue Team
-Your tool is only as good as your mind. — Hacker Zen
-Payloads are poetry to the right eyes. — Exploit Artist
-CTFs do not make you a hacker — they make you dangerous at parties. — CTF Team Lead
+Talk is cheap. Show me the code. - Linus Torvalds
+There is no patch for human stupidity. - Kevin Mitnick
+Security is not a product, but a process. - Bruce Schneier
+The quieter you become, the more you are able to hear. - Kali Linux
+With great power comes great responsibility. - Uncle Ben
+Think like a hacker, act like a professional. - Unknown
+Obscurity is a poor substitute for security. - Phil Zimmermann
+Attacks always get better; they never get worse. - Marcus Ranum
+Hack the planet! - Hackers (1995)
+Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us. - Anonymous
+Amateurs hack systems, professionals hack people. - Bruce Schneier
+Stay out of the dark web - unless you know what you are doing. - Every Ethical Hacker Ever
+You cannot secure what you do not understand. - Unknown
+Information wants to be free. - Stewart Brand
+Only script kiddies blame the tools. - Hacker Proverb
+Cybersecurity is like brushing your teeth - you have to do it every day. - Unknown
+Every lock can be picked with a big enough hammer. - Hacker Humor
+Don't trust. Verify. - Zero Trust Philosophy
+One man's malware is another man's penetration test. - Offensive Security
+The best defense is a paranoid offense. - Infosec Rule
+The only secure system is one that is unplugged, locked in a safe, and buried 20 feet underground. - Gene Spafford
+APT = Advanced Persistent Trolls - Cybersecurity Meme
+Your firewall is only as good as your users' click decisions. - Security Trainer
+Sometimes the most secure password is forgetting your password. - User Frustration
+Firewalls do not stop people - people do. - Unknown
+There is no cloud, just someone else's computer. - SysAdmin Wisdom
+Hackers do not break in - they log in. - Red Team Mentality
+Recon is where the real hacking begins. - TheHarvester Tool Mindset
+Enumeration is the key. - Hack The Box
+The payload is just the beginning. - Metasploit Operators
+Your logs know what you did last summer. - SIEM Humor
+Encryption is sexy. - Privacy Advocate
+Never underestimate the power of social engineering. - Kevin Mitnick
+The bigger the system, the more beautiful the exploit. - Exploit Developer
+If you know the system better than its admin, you own it. - CTF Wizard
+Nothing is secure - only less insecure. - Cyber Philosopher
+Burp, scan, pwn, repeat. - Web App Hacker
+0day is just Tuesday for some people. - Red Team
+A good hacker never blames their proxychains. - Tor Surfer
+Every port tells a story. - Nmap Fan
+A good password is like a toothbrush: do not share it and change it often. - Security Awareness Training
+Do not feed the phish. - Security 101
+Hydra does not crack passwords - it cracks human laziness. - Brute Force Warrior
+That DNS request just snitched on you. - OSINT Specialist
+When in doubt, reverse engineer it. - Malware Analyst
+Sleep is for the patched. - SOC Analyst at 2AM
+You do not scan the box. You scan the behavior. - Real Hacker
+Hackers do not guess, they gather. - Recon God
+Code like a ninja, log like a forensic analyst. - Blue Team
+Your tool is only as good as your mind. - Hacker Zen
+Payloads are poetry to the right eyes. - Exploit Artist
+CTFs do not make you a hacker - they make you dangerous at parties. - CTF Team Lead
