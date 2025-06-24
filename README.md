@@ -231,15 +231,6 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
 ###
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg">
-</picture>
-
-###
-###
-
 ### 🛰️ Mumbai Weather Forecast (Takes 5 Seconds to load)
 ![Mumbai Weather](https://wttr.in/Mumbai.png?m)
 
@@ -250,21 +241,6 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
 
 ###
 
-
-<!-- Pacman Graph -->
-<img
-  alt="pacman contribution graph"
-  src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg" />
-
-<!-- Snake Graph -->
-<img
-  src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/snake/snake.svg"
-  alt="Snake animation" />
-
-
-
-
-###
 > whoami  
 shravan – cybersecurity enthusiast, purple teamer, and dev 🧠  
 > pwd  
