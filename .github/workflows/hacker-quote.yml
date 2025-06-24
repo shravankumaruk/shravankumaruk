@@ -1,37 +1,46 @@
+# .github/workflows/hacker-quote.yml
 name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"
-  workflow_dispatch:
+    - cron: "0 6 * * *"     # Runs daily at 06:00 UTC
+  workflow_dispatch:         # Manual trigger
 
 jobs:
-  quote:
+  update-quote:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repo
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
-      - name: 📄 Pick random hacker quote
-        id: get_quote
+      - name: 🎯 Pick & inject a random quote (pure AWK)
         run: |
-          quote=$(shuf -n 1 quotes.txt)
-          echo "QUOTE=$quote" >> $GITHUB_OUTPUT
+          awk '
+            BEGIN {
+              srand()
+              i = 0
+              while ((getline line < "quotes.txt") > 0) {
+                quotes[i++] = line
+              }
+              idx = int(rand() * i)
+            }
+            /<!--START_QUOTE-->/ {
+              print
+              print "> " quotes[idx]
+              skip = 1
+              next
+            }
+            /<!--END_QUOTE-->/ {
+              skip = 0
+            }
+            skip == 0 {
+              print
+            }
+          ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: 📝 Update README.md with quote
-        run: |
-          quote="${{ steps.get_quote.outputs.QUOTE }}"
-          echo "Quote selected: $quote"
-          if [ -z "$quote" ]; then
-            echo "No quote found!"
-            exit 1
-          fi
-          # Replace the placeholder with the new quote (no extra quotes)
-          sed -i "s|> _quote will appear here_|> $quote|" README.md
-
-      - name: ✅ Commit and push
+      - name: ✅ Commit & push updated README
         uses: EndBug/add-and-commit@v9
         with:
-          message: "💡 update daily hacker quote"
+          message: "💬 update daily hacker quote"
           add: "README.md"
