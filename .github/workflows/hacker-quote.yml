@@ -1,9 +1,10 @@
+# .github/workflows/hacker-quote.yml
 name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"     # Every day at 06:00 UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: "0 6 * * *"     # Runs daily at 06:00 UTC
+  workflow_dispatch:         # Allows manual trigger
 
 jobs:
   update-quote:
@@ -18,32 +19,32 @@ jobs:
           awk '
             BEGIN {
               srand()
-              # Read all quotes into an array
+              # Load all quotes into an array
               i = 0
               while ((getline line < "quotes.txt") > 0) {
                 quotes[i++] = line
               }
-              # Pick a random index
+              # Choose a random index
               idx = int(rand() * i)
             }
-            # When the START_QUOTE marker is found
+            # When we hit the START marker, print it and the chosen quote
             /<!--START_QUOTE-->/ {
-              print                    # print the marker
-              print "> " quotes[idx]   # print the new quote
+              print
+              print "> " quotes[idx]
               skip = 1
               next
             }
-            # When the END_QUOTE marker is found
+            # On the END marker, stop skipping and print it
             /<!--END_QUOTE-->/ {
               skip = 0
             }
-            # Print lines only when not skipping
+            # Print all other lines if not in skip mode
             skip == 0 {
               print
             }
           ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: ✅ Commit & Push updated README
+      - name: ✅ Commit & push changes
         uses: EndBug/add-and-commit@v9
         with:
           message: "💬 update daily hacker quote"
