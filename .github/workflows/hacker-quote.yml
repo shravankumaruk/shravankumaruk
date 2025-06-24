@@ -1,51 +1,37 @@
-# .github/workflows/hacker-quote.yml
 name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"     # Runs daily at 06:00 UTC
-  workflow_dispatch:         # Allows manual trigger
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
-  update-quote:
+  quote:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
+      - name: 📥 Checkout repo
         uses: actions/checkout@v3
 
-      - name: 🎯 Pick & inject a random quote (pure AWK)
+      - name: 📄 Pick random hacker quote
+        id: get_quote
         run: |
-          awk '
-            BEGIN {
-              srand()
-              # Load all quotes into an array
-              i = 0
-              while ((getline line < "quotes.txt") > 0) {
-                quotes[i++] = line
-              }
-              # Choose a random index
-              idx = int(rand() * i)
-            }
-            # When we hit the START marker, print it and the chosen quote
-            /<!--START_QUOTE-->/ {
-              print
-              print "> " quotes[idx]
-              skip = 1
-              next
-            }
-            # On the END marker, stop skipping and print it
-            /<!--END_QUOTE-->/ {
-              skip = 0
-            }
-            # Print all other lines if not in skip mode
-            skip == 0 {
-              print
-            }
-          ' README.md > README.tmp && mv README.tmp README.md
+          quote=$(shuf -n 1 quotes.txt)
+          echo "QUOTE=$quote" >> $GITHUB_OUTPUT
 
-      - name: ✅ Commit & push changes
+      - name: 📝 Update README.md with quote
+        run: |
+          quote="${{ steps.get_quote.outputs.QUOTE }}"
+          echo "Quote selected: $quote"
+          if [ -z "$quote" ]; then
+            echo "No quote found!"
+            exit 1
+          fi
+          # Replace the placeholder with the new quote (no extra quotes)
+          sed -i "s|> _quote will appear here_|> $quote|" README.md
+
+      - name: ✅ Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          message: "💬 update daily hacker quote"
+          message: "💡 update daily hacker quote"
           add: "README.md"
