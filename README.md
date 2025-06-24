@@ -250,15 +250,17 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
 
 ###
 
+
 <!-- Pacman Graph -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg">
-</picture>
+<img
+  alt="pacman contribution graph"
+  src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/pacman-contribution-graph.svg" />
 
 <!-- Snake Graph -->
-<img src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/snake/snake.svg" alt="Snake animation" />
+<img
+  src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/snake/snake.svg"
+  alt="Snake animation" />
+
 
 
 
