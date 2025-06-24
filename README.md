@@ -1,11 +1,18 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00FF00&center=true&vCenter=true&width=450&lines=Shravan+Kumar+UK;Cybersecurity;Purple+Teamer;Tech+Builder" alt="Typing SVG" />
+</h1>
+
+
+
 <div align="center">
   <img height="200" src="https://raw.githubusercontent.com/shravanprojects/shravanprojects.github.io/refs/heads/main/kali-preview-boot.gif"  />
 </div>
 
 ###
 
-
 <div align="center">
+<a href="https://www.github.com/shravankumaruk" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=for-the-badge&color=ffffff&labelColor=000000" />
   <a href="https://www.linkedin.com/in/shravankumaruk/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
@@ -177,11 +184,22 @@
 ###
 
 <h3 align="left"> 🔍 Additional Technologies am Working on:</h3>
-Will update later because manual works needs break in this Ai era🤷🏻‍♂️
+<p align="center">
+  <a href="https://accessdata.com/products-services/forensic-toolkit-ftk">
+    <img src="/bendekai/FTK.png" alt="FTK" width="120" />
+  </a>
+  <a href="https://www.magnetforensics.com/products/magnet-axiom/">
+    <img src="/bendekai/magnet-forensics.webp" alt="Magnet Forensics" width="120" />
+  </a>
+  <a href="https://www.cellebrite.com/en/ufed-ultimate/">
+    <img src="/bendekai/cellebrite.svg" alt="Cellebrite" width="120" />
+  </a>
+  <blockquote>
+  🚧 <strong>Will be updated soon...</strong>
+</blockquote>
+</p>
 
 ###
-
-
 ###
 
 <h3 align="left">🔥   My Stats :</h3>
@@ -211,3 +229,11 @@ Will update later because manual works needs break in this Ai era🤷🏻‍♂�
 </div>
 
 ###
+> whoami  
+shravanuk – cybersecurity enthusiast, purple teamer, and dev 🧠  
+> pwd  
+~/India/cyber-lab  
+> ls -al  
+-rwx  red_team_tools  
+-rwx  writeups.md  
+-rwx  custom_scanners.py
