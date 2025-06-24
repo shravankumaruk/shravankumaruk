@@ -1,4 +1,9 @@
+## 💬 Daily Hacker Quote
+
+<!--START_QUOTE-->
 > _quote will appear here_
+<!--END_QUOTE-->
+
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00FF00&center=true&vCenter=true&width=450&lines=Shravan+Kumar+UK;Cybersecurity;Purple+Teamer;Tech+Builder" alt="Typing SVG" />
 </h1>
@@ -111,135 +116,4 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
   <img width="12" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" height="40" alt="mysql logo"  />
   <img width="12" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=black&style=for-the-badge" height="40" alt="powershell logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white&style=for-the-badge" height="40" alt="slack logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" height="40" alt="firefox logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/msdos/msdos-original.svg" height="40" alt="msdos logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/moodle/moodle-original.svg" height="40" alt="moodle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" alt="visualstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-</div>
-
-
-###
-<br>
-<h3 align="center">🧑🏻‍💻Tools in Kali Linux am aware fully (I dropped few no logo so ) </h3>
-<p align="center">
-  <a href="https://www.kali.org/tools/aircrack-ng/"><img src="/bendekai/aircrack-ng-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/autopsy/"><img src="/bendekai/autopsy-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/beef-xss/"><img src="/bendekai/beef-xss-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/burpsuite/"><img src="/bendekai/burpsuite-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/dirbuster/"><img src="/bendekai/dirbuster-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/dmitry/"><img src="/bendekai/dmitry-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/dnsenum/"><img src="/bendekai/dnsenum-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/dvwa/"><img src="/bendekai/dvwa-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/enum4linux/"><img src="/bendekai/enum4linux-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/eyewitness/"><img src="/bendekai/eyewitness-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/ghidra/"><img src="/bendekai/ghidra-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/gobuster/"><img src="/bendekai/gobuster-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/hashcat/"><img src="/bendekai/hashcat-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/hping3/"><img src="/bendekai/hping3-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/hydra/"><img src="/bendekai/hydra-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/john/"><img src="/bendekai/john-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/lbd/"><img src="/bendekai/lbd-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/legion/"><img src="/bendekai/legion-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/metasploit-framework/"><img src="/bendekai/metasploit-framework-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/mimikatz/"><img src="/bendekai/mimikatz-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/netdiscover/"><img src="/bendekai/netdiscover-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/nikto/"><img src="/bendekai/nikto-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/nmap/"><img src="/bendekai/nmap-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/powershell/"><img src="/bendekai/powershell-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/recon-ng/"><img src="/bendekai/recon-ng-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/sherlock/"><img src="/bendekai/sherlock-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/snort/"><img src="/bendekai/snort-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/spiderfoot/"><img src="/bendekai/spiderfoot-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/sqlmap/"><img src="/bendekai/sqlmap-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/subfinder/"><img src="/bendekai/subfinder-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/theharvester/"><img src="/bendekai/theharvester-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/whatweb/"><img src="/bendekai/whatweb-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/wifiphisher/"><img src="/bendekai/wifiphisher-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/wifite/"><img src="/bendekai/wifite-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/wireshark/"><img src="/bendekai/wireshark-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/wpscan/"><img src="/bendekai/wpscan-logo.svg" width="40" /></a>
-  <a href="https://www.kali.org/tools/zaproxy/"><img src="/bendekai/zaproxy-logo.svg" width="40" /></a>
-</p>
-
-
-###
-###
-
-<h3 align="left"> 🔍 Additional Technologies am Working on:</h3>
-<p align="center">
-  <a href="https://accessdata.com/products-services/forensic-toolkit-ftk">
-    <img src="/bendekai/FTK.png" alt="FTK" width="120" />
-  </a>
-  <a href="https://www.magnetforensics.com/products/magnet-axiom/">
-    <img src="/bendekai/magnet-forensics.webp" alt="Magnet Forensics" width="120" />
-  </a>
-  <a href="https://www.cellebrite.com/en/ufed-ultimate/">
-    <img src="/bendekai/cellebrite.svg" alt="Cellebrite" width="120" />
-  </a>
-  <blockquote>
-  🚧 <strong>Will be updated soon...</strong>
-</blockquote>
-</p>
-
-###
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shravankumaruk&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shravankumaruk&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-<br>
-
-
-📝 Check out my latest cybersecurity writeups and tutorials on [my Blogspot blog](https://shravanuk.blogspot.com/)  
-[![Blogspot](https://img.shields.io/badge/Blog-Blogspot-orange?logo=blogger&logoColor=white)](https://shravanuk.blogspot.com/)
-
-###
-
-<img src="https://raw.githubusercontent.com/shravankumaruk/shravankumaruk/output/snake.svg" alt="Snake animation" />
-
-###
-<div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/shravanprojects/shravanprojects.github.io/refs/heads/main/heckur.gif"  />
-</div>
-<div align="center">
-  <img src="https://profile-counter.glitch.me/shravankumaruk/count.svg?"  />
-</div>
-
-
-###
-###
-
-###
-
-> whoami  
-shravan – cybersecurity enthusiast, purple teamer, and dev 🧠  
-> pwd  
-~/India/cyber-lab  
-> ls -al  
--rwx  red_team_tools  
--rwx  student.sh  
--rwx  custom_scanners.py
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?logo=powersh
