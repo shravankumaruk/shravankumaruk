@@ -2,30 +2,38 @@ name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # Runs every day at 6 AM UTC
-  workflow_dispatch:      # Allows manual trigger
+    - cron: "0 6 * * *"    # Every day at 06:00 UTC
+  workflow_dispatch:        # Allows manual runs
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🎯 Pick a Random Quote
-        id: get_quote
+      - name: 🎯 Pick a random hacker quote
+        id: pick_quote
         run: |
+          # Pick one line from quotes.txt
           quote=$(shuf -n 1 quotes.txt)
+          echo "Picked quote: $quote"
           echo "QUOTE=$quote" >> $GITHUB_OUTPUT
 
-      - name: 📝 Update README.md with New Quote
+      - name: 📝 Inject quote into README.md
         run: |
-          quote="${{ steps.get_quote.outputs.QUOTE }}"
-          # Escape any special characters if needed
-          sed -i "s|> _quote will appear here_|> $quote|" README.md
+          # Grab it from the previous step
+          quote="${{ steps.pick_quote.outputs.QUOTE }}"
 
-      - name: ✅ Commit and Push Changes
+          # Use awk to replace everything between START and END markers
+          awk -v q="> $quote" '
+            /<!--START_QUOTE-->/ { print; print q; skip=1; next }
+            /<!--END_QUOTE-->/ { skip=0 }
+            skip==0 { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: ✅ Commit & push updated README
         uses: EndBug/add-and-commit@v9
         with:
           message: "💬 update daily hacker quote"
