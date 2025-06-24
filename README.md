@@ -32,8 +32,7 @@
 ###
 
 
-<h1 align="center">  
-<img src="assets/waving.gif" width="40px" alt="waving hand gif" />
+<h1 align="center">  🙏🏻
  TmFtYXN0aGU= to you</h1>
 
 ###
@@ -128,6 +127,60 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
 </div>
+
+
+###
+<br>
+<h3 align="center">🧑🏻‍💻Tools in Kali Linux am aware fully (I dropped few no logo so ) </h3>
+<p align="center">
+  <a href="https://www.kali.org/tools/aircrack-ng/"><img src="/bendekai/aircrack-ng-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/autopsy/"><img src="/bendekai/autopsy-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/beef-xss/"><img src="/bendekai/beef-xss-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/burpsuite/"><img src="/bendekai/burpsuite-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/dirbuster/"><img src="/bendekai/dirbuster-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/dmitry/"><img src="/bendekai/dmitry-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/dnsenum/"><img src="/bendekai/dnsenum-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/dvwa/"><img src="/bendekai/dvwa-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/enum4linux/"><img src="/bendekai/enum4linux-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/eyewitness/"><img src="/bendekai/eyewitness-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/ghidra/"><img src="/bendekai/ghidra-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/gobuster/"><img src="/bendekai/gobuster-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/hashcat/"><img src="/bendekai/hashcat-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/hping3/"><img src="/bendekai/hping3-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/hydra/"><img src="/bendekai/hydra-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/john/"><img src="/bendekai/john-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/lbd/"><img src="/bendekai/lbd-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/legion/"><img src="/bendekai/legion-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/metasploit-framework/"><img src="/bendekai/metasploit-framework-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/mimikatz/"><img src="/bendekai/mimikatz-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/netdiscover/"><img src="/bendekai/netdiscover-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/nikto/"><img src="/bendekai/nikto-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/nmap/"><img src="/bendekai/nmap-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/powershell/"><img src="/bendekai/powershell-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/recon-ng/"><img src="/bendekai/recon-ng-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/sherlock/"><img src="/bendekai/sherlock-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/snort/"><img src="/bendekai/snort-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/spiderfoot/"><img src="/bendekai/spiderfoot-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/sqlmap/"><img src="/bendekai/sqlmap-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/subfinder/"><img src="/bendekai/subfinder-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/theharvester/"><img src="/bendekai/theharvester-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/whatweb/"><img src="/bendekai/whatweb-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/wifiphisher/"><img src="/bendekai/wifiphisher-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/wifite/"><img src="/bendekai/wifite-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/wireshark/"><img src="/bendekai/wireshark-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/wpscan/"><img src="/bendekai/wpscan-logo.svg" width="40" /></a>
+  <a href="https://www.kali.org/tools/zaproxy/"><img src="/bendekai/zaproxy-logo.svg" width="40" /></a>
+</p>
+
+
+###
+###
+
+<h3 align="left"> 🔍 Additional Technologies am Working on:</h3>
+Will update later because manual works needs break in this Ai era🤷🏻‍♂️
+
+###
+
 
 ###
 
