@@ -9,9 +9,9 @@
 </div>
 
 ## 💬 Daily Hacker Quote
-
+<!--START_QUOTE-->
 > _quote will appear here_
-
+<!--END_QUOTE-->
 ###
 ###
 
