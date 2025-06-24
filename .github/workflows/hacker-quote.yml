@@ -2,7 +2,7 @@ name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"    # Every day at 06:00 UTC
+    - cron: "0 6 * * *"    # Daily at 06:00 UTC
   workflow_dispatch:        # Manual trigger
 
 jobs:
@@ -13,30 +13,38 @@ jobs:
       - name: 📥 Checkout repo
         uses: actions/checkout@v3
 
-      - name: 🔧 Sanitize quotes file
+      - name: 📝 Inject a random quote via awk
         run: |
-          # Convert any curly apostrophes or quotes to straight ones
-          sed -i "s/[‘’]/'/g" quotes.txt
-          sed -i 's/[“”]/"/g' quotes.txt
+          awk '
+            BEGIN {
+              srand();
+              # Read all quotes into array
+              i = 0
+              while ((getline line < "quotes.txt") > 0) {
+                quotes[i++] = line
+              }
+              # Pick random index
+              idx = int(rand() * i)
+            }
+            # When we hit the START marker, print it, then the quote, then skip until END
+            /<!--START_QUOTE-->/ {
+              print
+              print "> " quotes[idx]
+              skip = 1
+              next
+            }
+            # When we hit the END marker, stop skipping and print it
+            /<!--END_QUOTE-->/ {
+              skip = 0
+            }
+            # Print only when not skipping
+            skip == 0 {
+              print
+            }
+          ' README.md > README.tmp
+          mv README.tmp README.md
 
-      - name: 🎯 Pick a random quote
-        id: pick_quote
-        run: |
-          quote=$(shuf -n 1 quotes.txt)
-          echo "Picked quote: $quote"
-          echo "QUOTE=$quote" >> $GITHUB_OUTPUT
-
-      - name: 📝 Inject quote into README
-        run: |
-          quote="${{ steps.pick_quote.outputs.QUOTE }}"
-          # Replace content between markers
-          awk -v q="> $quote" '
-            /<!--START_QUOTE-->/ { print; print q; skip=1; next }
-            /<!--END_QUOTE-->/   { skip=0 }
-            skip==0              { print }
-          ' README.md > README.tmp && mv README.tmp README.md
-
-      - name: ✅ Commit & Push changes
+      - name: ✅ Commit & push changes
         uses: EndBug/add-and-commit@v9
         with:
           message: "💬 update daily hacker quote"
