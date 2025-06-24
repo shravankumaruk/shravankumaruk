@@ -8,6 +8,10 @@
   <img height="200" src="https://raw.githubusercontent.com/shravanprojects/shravanprojects.github.io/refs/heads/main/kali-preview-boot.gif"  />
 </div>
 
+## 💬 Daily Hacker Quote
+
+> _quote will appear here_
+###
 ###
 
 <div align="center">
@@ -228,12 +232,17 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
   <img src="https://profile-counter.glitch.me/shravankumaruk/count.svg?"  />
 </div>
 
+
 ###
+###
+
+###
+
 > whoami  
-shravanuk – cybersecurity enthusiast, purple teamer, and dev 🧠  
+shravan – cybersecurity enthusiast, purple teamer, and dev 🧠  
 > pwd  
 ~/India/cyber-lab  
 > ls -al  
 -rwx  red_team_tools  
--rwx  writeups.md  
+-rwx  student.sh  
 -rwx  custom_scanners.py
