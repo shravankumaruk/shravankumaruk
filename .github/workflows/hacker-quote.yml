@@ -2,43 +2,48 @@ name: 🧠 Daily Hacker Quote
 
 on:
   schedule:
-    - cron: "0 6 * * *"     # every day at 06:00 UTC
-  workflow_dispatch:         # manual trigger
+    - cron: "0 6 * * *"     # Every day at 06:00 UTC
+  workflow_dispatch:         # Manual trigger
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repo
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🎯 Pick & inject random quote (pure AWK)
+      - name: 🎯 Pick & inject a random quote (pure AWK)
         run: |
           awk '
             BEGIN {
               srand()
-              # load quotes
+              # Read all quotes into an array
               i = 0
-              while ((getline line < "quotes.txt") > 0) quotes[i++] = line
+              while ((getline line < "quotes.txt") > 0) {
+                quotes[i++] = line
+              }
+              # Pick a random index
               idx = int(rand() * i)
             }
+            # When the START_QUOTE marker is found
             /<!--START_QUOTE-->/ {
-              print
-              print "> " quotes[idx]
+              print                    # print the marker
+              print "> " quotes[idx]   # print the new quote
               skip = 1
               next
             }
+            # When the END_QUOTE marker is found
             /<!--END_QUOTE-->/ {
               skip = 0
             }
+            # Print lines only when not skipping
             skip == 0 {
               print
             }
-          ' README.md > README.tmp
-          mv README.tmp README.md
+          ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: ✅ Commit & push
+      - name: ✅ Commit & Push updated README
         uses: EndBug/add-and-commit@v9
         with:
           message: "💬 update daily hacker quote"
