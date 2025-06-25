@@ -240,13 +240,38 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
 </p>
 
 ###
+<div align="center">
 
-> whoami  
-shravan – cybersecurity enthusiast, purple teamer, and dev 🧠  
-> pwd  
-~/India/cyber-lab  
-> ls -al  
--rwx  red_team_tools  
--rwx  student.sh  
--rwx  custom_scanners.py
+[![trophy](https://github-profile-trophy.vercel.app/?username=shravankumaruk&theme=gruvbox&row=2&column=4)](https://github.com/shravankumaruk)
+
+</div>
+
+
+```bash
+> whoami
+shravankumaruk
+
+> uname -a
+Cybersecurity Enthusiast | Developer | Open Source Contributor
+
+> cat ~/bio.txt
+👨‍💻 Passionate about Hacking, Python, and Network Security  
+🛡️ Building tools that protect and explore the digital world  
+📍 Based in India  
+📚 Constantly learning new tech & exploiting CTF challenges
+
+> ls ~/skills
+- Python
+- Bash
+- Linux
+- Networking
+- Cyber Forensics
+- Reverse Engineering
+
+> ping shravankumaruk.github.io
+Pinging... response received from Open Source World 🌐
+
+> exit
+# Stay curious, stay ethical.
+
 
