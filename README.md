@@ -49,6 +49,8 @@ src="https://img.shields.io/github/followers/shravankumaruk?logo=github&style=fo
 
 👋 Hey there! A curious student will soon be exploring the fascinating world of Git & GitHub!
 
+📧Mail me at <a href="shravankumaruk@proton.me">shravankumaruk@proton.me</a>
+
 🧠 I'm diving into ethical hacking, cybersecurity fundamentals, and building real-world tools.
 
 🛡️ Currently focused on **Purple Teaming** — combining the powers of Red Team (offense) & Blue Team (defense).
